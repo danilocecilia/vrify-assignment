@@ -7,7 +7,7 @@ the output of your queries as returned from the SQL statement.
 -- select all contacts in the table and their address information. 
 -- Omit any records that do not have an address.
 SELECT 
-	CUSTOMERS.NAME, 
+    CUSTOMERS.NAME, 
     CUSTOMER_ADDRESS.STREET_ADDRESS,
     CUSTOMER_ADDRESS.POSTAL_CODE,
     CUSTOMER_ADDRESS.COUNTRY
